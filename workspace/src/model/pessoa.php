@@ -25,7 +25,7 @@ class Pessoa
 
     public function getLogin()
     {
-        return $this->$login;
+        return $this->login;
     }
 
     public function setLogin($login)
@@ -35,7 +35,7 @@ class Pessoa
 
     public function getSenha()
     {
-        return $this->$senha;
+        return $this->senha;
     }
 
     public function setSenha($newSenha)

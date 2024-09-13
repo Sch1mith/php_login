@@ -1,7 +1,6 @@
 body{
-    font-family: Arial, sans-serif;
-    background-color: #ffd1d1;
-    display: flex;
+    font-family: Arial;
+    background-color: #ffffff;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -9,16 +8,18 @@ body{
 }
 
 .login-container {
-    background: #b4b4b473;
+    background: #a3a3a373;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    text-align: center;
+    width: 250px;
+    height: 250px;
+    text-align: left;
 }
 
 .login-container h2 {
-    margin-bottom: 20px;
+    margin-bottom: 5px;
+    text-align: center;
 }
 
 .login-container label {
@@ -30,7 +31,7 @@ body{
     width: calc(100% - 22px);
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid #ffffff;
     border-radius: 4px;
 }
 
@@ -41,9 +42,10 @@ body{
     padding: 10px;
     border-radius: 4px;
     cursor: pointer;
+    justify-items: center;
 }
 
 .login-container button:hover{
-    background-color: rgb(93, 130, 255);
+    background-color: rgb(0, 60, 255);
     color: black;
 }
