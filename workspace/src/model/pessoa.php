@@ -8,19 +8,19 @@ class Pessoa
 
     public function __construct($nome, $login, $senha)
     {
-        $this->$nome = $nome;
-        $this->$login = $login;
-        $this->$senha = $senha;
+        $this->nome = $nome;
+        $this->login = $login;
+        $this->senha = $senha;
     }
 
     public function getNome()
     {
-        return $this->$nome;
+        return $this->nome;
     }
 
-    public function setNome($nome)
+    public function setNome($newNome)
     {
-        $this->$nome = $nome;
+        $this->nome = $newNome;
     }
 
     public function getLogin()
@@ -28,9 +28,9 @@ class Pessoa
         return $this->login;
     }
 
-    public function setLogin($login)
+    public function setLogin($newLogin)
     {
-        $this->$login = $login;
+        $this->login = $newLogin;
     }
 
     public function getSenha()
@@ -40,7 +40,7 @@ class Pessoa
 
     public function setSenha($newSenha)
     {
-        $this->$senha = $newSenha;
+        $this->senha = $newSenha;
     }
 }
 
